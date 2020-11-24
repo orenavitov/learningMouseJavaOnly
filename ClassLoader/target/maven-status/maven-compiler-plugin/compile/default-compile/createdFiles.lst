@@ -1,0 +1,8 @@
+ClassLoaderTest\A.class
+ClassLoaderTest\MyClass.class
+ClassLoaderTest\Child.class
+ClassLoaderTest\Test.class
+MemoryTest\Demo.class
+MemoryTest\Test.class
+ClassLoaderTest\MyClassLoader.class
+ClassLoaderTest\Parent.class

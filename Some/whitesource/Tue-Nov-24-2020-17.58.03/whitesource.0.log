@@ -1,0 +1,447 @@
+[INFO] [2020-11-24 17:58:03,790 +0200[ - UnifiedAgent version (pluginVersion) : 20.10.2
+[INFO] [2020-11-24 17:58:04,121 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-24 17:58:04,123 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-24 17:58:04,161 +0200[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=Some
+productName=aaa_mm_eua
+includes=**/*.jar
+forceUpdate.failBuildOnPolicyViolation=false
+forceUpdate=true
+forceCheckAllDependencies=false
+excludes=**/*sources.jar,**/*javadoc.jar
+enableImpactAnalysis=true
+configFilePath=C:\FSA\multi-module demo project\wss-unified-agent-EUA.config
+checkPolicies=true
+appPath=C:/FSA/multi-module demo project/learningMouse/Some/target/Some-1.0-SNAPSHOT.jar
+apiKey=******
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#log.level=info
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#failErrorLevel=DEFAULT
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#docker.scanContainers=false
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+ignoreEuaNotices=ALL
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=false
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=false
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=false
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=false
+
+##### maven #####
+maven.resolveDependencies=true
+maven.ignoredScopes=None
+maven.ignoreMvnTreeErrors=false
+maven.aggregateModules=true
+#maven.runPreStep=false
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+npm.ignoreNpmLsErrors=true
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.removeDuplicateDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+python.runPipenvPreStep=false
+python.resolveSetupPyFiles=false
+python.resolvePipEditablePackages=false
+python.resolveHierarchyTree=true
+python.resolveGlobalPackages=false
+python.requirementsFileIncludes=total.nonsense.txt
+python.pipenvDevDependencies=false
+python.installVirtualenv=false
+python.ignoreSourceFiles=true
+python.ignorePipInstallErrors=false
+#python.runPoetryPreStep=false
+#python.resolveDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2020-11-24 17:58:06,096 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	285
+Max memory (Mb): 	4034
+Total memory (Mb): 	398
+Used memory (Mb): 	112
+
+[INFO] [2020-11-24 17:58:06,106 +0200[ - Starting analysis
+[INFO] [2020-11-24 17:58:06,106 +0200[ - Scanning directories [C:\FSA\multi-module demo project\learningMouse\Some] for package dependencies (may take a few minutes)
+[INFO] [2020-11-24 17:58:06,107 +0200[ - Included file types: **/*.jar
+[INFO] [2020-11-24 17:58:06,107 +0200[ - Excluded file types: **/*sources.jar,**/*javadoc.jar
+[INFO] [2020-11-24 17:58:06,110 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-24 17:58:06,111 +0200[ - Scanning C:\FSA\multi-module demo project\learningMouse\Some
+[DEBUG] [2020-11-24 17:58:06,120 +0200[ - Dependency file found location: C:\FSA\multi-module demo project\learningMouse\Some\pom.xml
+[INFO] [2020-11-24 17:58:06,147 +0200[ - Attempting to resolve dependencies
+[INFO] [2020-11-24 17:58:06,148 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-24 17:58:06,159 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\FSA\multi-module demo project\learningMouse\Some\pom.xml
+[DEBUG] [2020-11-24 17:58:06,169 +0200[ - found folders:
+
+[DEBUG] [2020-11-24 17:58:06,170 +0200[ - C:\FSA\multi-module demo project\learningMouse
+[DEBUG] [2020-11-24 17:58:06,170 +0200[ - 
+
+[DEBUG] [2020-11-24 17:58:06,181 +0200[ - 
+
+[DEBUG] [2020-11-24 17:58:06,183 +0200[ - Finishing reduce dependencies
+[DEBUG] [2020-11-24 17:58:06,196 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c jdeps.exe -version' in '.'
+[DEBUG] [2020-11-24 17:58:06,211 +0200[ - CommandLineProcess - executeProcessCommand - timeout set to 900s
+[INFO] [2020-11-24 17:58:06,539 +0200[ - Trying to resolve MAVEN dependencies
+[DEBUG] [2020-11-24 17:58:06,541 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2020-11-24 17:58:06,547 +0200[ - CommandLineProcess - executeProcessCommand - timeout set to 60s
+[DEBUG] [2020-11-24 17:58:07,168 +0200[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-11-24 17:58:07,169 +0200[ - Read line #1: Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[DEBUG] [2020-11-24 17:58:07,170 +0200[ - Read line #2: Maven home: C:\apache-maven-3.6.3\bin\..
+[DEBUG] [2020-11-24 17:58:07,170 +0200[ - Read line #3: Java version: 11.0.7, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.7
+[DEBUG] [2020-11-24 17:58:07,170 +0200[ - Read line #4: Default locale: en_US, platform encoding: Cp1252
+[DEBUG] [2020-11-24 17:58:07,171 +0200[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-11-24 17:58:07,173 +0200[ - MAVEN installation status: true
+[DEBUG] [2020-11-24 17:58:07,173 +0200[ - The command was run under C:\FSA\multi-module demo project\learningMouse\Some\.
+[INFO] [2020-11-24 17:58:07,173 +0200[ - topFolder = C:\FSA\multi-module demo project\learningMouse\Some
+[DEBUG] [2020-11-24 17:58:07,173 +0200[ - topFolder = C:\FSA\multi-module demo project\learningMouse\Some
+[DEBUG] [2020-11-24 17:58:07,175 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in 'C:\FSA\multi-module demo project\learningMouse\Some'
+[DEBUG] [2020-11-24 17:58:07,181 +0200[ - CommandLineProcess - executeProcessCommand - timeout set to 900s
+[DEBUG] [2020-11-24 17:58:07,749 +0200[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-11-24 17:58:07,750 +0200[ - Read line #1: Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[DEBUG] [2020-11-24 17:58:07,750 +0200[ - Read line #2: Maven home: C:\apache-maven-3.6.3\bin\..
+[DEBUG] [2020-11-24 17:58:07,750 +0200[ - Read line #3: Java version: 11.0.7, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.7
+[DEBUG] [2020-11-24 17:58:07,750 +0200[ - Read line #4: Default locale: en_US, platform encoding: Cp1252
+[DEBUG] [2020-11-24 17:58:07,750 +0200[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-11-24 17:58:07,752 +0200[ - using: Maven 3.6.3
+[DEBUG] [2020-11-24 17:58:07,754 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\FSA\multi-module demo project\learningMouse\Some'
+[DEBUG] [2020-11-24 17:58:07,759 +0200[ - CommandLineProcess - executeProcessCommand - timeout set to 900s
+[DEBUG] [2020-11-24 17:58:14,466 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #2: [WARNING] 
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #3: [WARNING] Some problems were encountered while building the effective model for mih:Some:jar:1.0-SNAPSHOT
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #4: [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ mih:JAVALearning:1.0-SNAPSHOT, C:\FSA\multi-module demo project\learningMouse\pom.xml, line 13, column 21
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #5: [WARNING] 
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #6: [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[DEBUG] [2020-11-24 17:58:14,467 +0200[ - Read line #7: [WARNING] 
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #8: [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #9: [WARNING] 
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #10: [INFO] 
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #11: [INFO] ------------------------------< mih:Some >------------------------------
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #12: [INFO] Building Some 1.0-SNAPSHOT
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #13: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-24 17:58:14,468 +0200[ - Read line #14: [INFO] 
+[DEBUG] [2020-11-24 17:58:14,469 +0200[ - Read line #15: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ Some ---
+[DEBUG] [2020-11-24 17:58:14,469 +0200[ - Read line #16: [INFO] Wrote dependency tree to: C:\FSA\multi-module demo project\learningMouse\Some\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-24 17:58:14,469 +0200[ - Read line #17: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-24 17:58:14,469 +0200[ - Read line #18: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-24 17:58:14,469 +0200[ - Read line #19: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-24 17:58:14,470 +0200[ - Read line #20: [INFO] Total time:  3.946 s
+[DEBUG] [2020-11-24 17:58:14,470 +0200[ - Read line #21: [INFO] Finished at: 2020-11-24T17:58:14+02:00
+[DEBUG] [2020-11-24 17:58:14,470 +0200[ - Read line #22: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-24 17:58:14,496 +0200[ - Start parsing pom files
+[INFO] [2020-11-24 17:58:14,497 +0200[ - Reading maven dependencies tree output file 'C:\FSA\multi-module demo project\learningMouse\Some\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-24 17:58:14,500 +0200[ - mih:Some:jar:1.0-SNAPSHOT
+[INFO] [2020-11-24 17:58:14,509 +0200[ - End parsing pom files , found : Some
+[INFO] [2020-11-24 17:58:14,509 +0200[ - The following maven scopes will be ignored : [None]
+[DEBUG] [2020-11-24 17:58:14,521 +0200[ - Project/Module coordinates: Coordinates@5e920999[groupId= mih,artifactId= Some,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-24 17:58:14,522 +0200[ - Total project direct dependencies found : 0
+[DEBUG] [2020-11-24 17:58:14,524 +0200[ - ProjectInfo direct dependency added : 0
+[INFO] [2020-11-24 17:58:14,571 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-24 17:58:14,574 +0200[ - total resolved projects =1
+[INFO] [2020-11-24 17:58:14,577 +0200[ - Scanning directories [C:\FSA\multi-module demo project\learningMouse\Some] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-11-24 17:58:14,579 +0200[ - Scanning C:\FSA\multi-module demo project\learningMouse\Some
+[DEBUG] [2020-11-24 17:58:14,616 +0200[ - Dependency file found location: C:\FSA\multi-module demo project\learningMouse\Some\target\Some-1.0-SNAPSHOT.jar
+[INFO] [2020-11-24 17:58:14,629 +0200[ - Total files found according to the includes/excludes pattern: 1
+[INFO] [2020-11-24 17:58:15,188 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-11-24 17:58:15,189 +0200[ - Finished analyzing Files
+[DEBUG] [2020-11-24 17:58:15,190 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	280
+Max memory (Mb): 	4034
+Total memory (Mb): 	398
+Used memory (Mb): 	117
+
+[INFO] [2020-11-24 17:58:15,308 +0200[ - Initializing WhiteSource Client
+[DEBUG] [2020-11-24 17:58:15,308 +0200[ - Setting project tags
+[INFO] [2020-11-24 17:58:15,310 +0200[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2020-11-24 17:58:15,491 +0200[ - UpdateType set to OVERRIDE 
+[INFO] [2020-11-24 17:58:15,491 +0200[ - Effective Usage Analysis version: 2020.10.2.1053
+[INFO] [2020-11-24 17:58:15,491 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Effective Usage Analysis -------------------
+------------------------------------------------------------------------
+[ERROR] [2020-11-24 17:58:15,494 +0200[ - Effective Usage Analysis will not run if 0 dependencies are found. Check that the -d parameter specifies a valid project path
